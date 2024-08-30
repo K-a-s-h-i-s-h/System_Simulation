@@ -23,7 +23,7 @@ for i in range(1, iterations+1):
 print("|\tTIME\t|\tA\t|\tB\t|\tC\t|")
 print("|\t0\t|\t"+str(round(arrayA[0], 2))+"\t|\t"+str(round(arrayB[0],2))+"\t|\t"+str(round(arrayC[0],2))+"\t|")
 i = 0
-time = 0.1
+time = delta_time_period
 for i in range (1,iterations+1):
     print("|\t"+str(round(time, 2))+"\t|\t"+str(round(arrayA[i], 2))+"\t|\t"+str(round(arrayB[i],2))+"\t|\t"+str(round(arrayC[i],2))+"\t|")
     time = time + delta_time_period
